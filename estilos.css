@@ -169,3 +169,57 @@ p {
     display: block;
 }
 
+/* responsividade */
+@media (max-width: 768px) {
+    .sobre-mim .sobre-texto,
+    .sobre-mim .sobre-imagem {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-site {
+        font-size: 1.5rem;
+    }
+
+    .titulo-pagina {
+        font-size: 1.2rem;
+    }
+
+    .inicio-sobre {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .parte-1 {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .cabecalho-interno {
+        width: 95%;
+    }
+
+    .interno {
+        width: 95%;
+    }
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
